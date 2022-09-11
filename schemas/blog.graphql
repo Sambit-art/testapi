@@ -1,0 +1,13 @@
+type Query{
+    blogs:[Blog]
+    blogByDate(date:String) : [Blog]
+}
+type Blog{
+    heading:String
+    content:String
+    date:String
+    comment:[Comment]
+}
+
+
+
